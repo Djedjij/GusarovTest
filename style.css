@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+
+.first-page {
+  background-image: url("./images/bg.png");
+  height: 647px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  color: white;
+  width: 1520px;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 682px;
+}
+.header-line {
+  width: 50px;
+  height: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header-links {
+  width: 100%;
+}
+.header-links ul {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.header-panel {
+  display: flex;
+  align-items: center;
+  max-width: 658px;
+  width: 100%;
+  justify-content: space-between;
+}
+.header-language-button {
+  background: none;
+  color: white;
+  border: none;
+}
+.header-country-button {
+  background: none;
+  color: white;
+  border: none;
+}
+.header-subscribe-button {
+  padding: 10px 30px;
+  background-color: #ffcf5c;
+  color: black;
+  border: #ffcf5c;
+}
+.header-burger-button {
+  background: none;
+  color: white;
+  border: none;
+}
+.header-social a {
+  text-decoration: none;
+}
+
+.header-country-button {
+  display: flex;
+  align-items: center;
+}
