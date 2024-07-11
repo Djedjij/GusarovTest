@@ -40,7 +40,20 @@ a {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "TTFirs-ExtraBold";
+  src: url("fonts/TTFirs-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirs-Medium";
+  src: url("fonts/TTFirs-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .first-page {
+  margin-top: -144px;
   background-image: url("./images/bg.png");
   height: 647px;
   display: flex;
@@ -61,6 +74,7 @@ a {
   align-items: center;
   font-family: "Century Gothic";
   padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .header-main {
   height: 74px;
@@ -173,6 +187,10 @@ a {
 }
 
 @media screen and (max-width: 1080px) {
+  .header {
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
   .header-sub {
     display: none;
   }
@@ -204,6 +222,7 @@ a {
 
 /* fp content */
 .first-page-content {
+  margin-top: 144px;
   max-width: 1360px;
   padding: 0px 20px;
   color: white;
@@ -227,14 +246,14 @@ a {
   margin-right: 20px;
 }
 .author-info h4 {
-  /* доделать */
-  font-family: "TTFirs-black";
+  font-family: "TTFirs-Extrabold";
   font-size: 18px;
   font-weight: bold;
   word-spacing: 3%;
 }
 .author-info p {
-  font-family: "TTFirs-black";
+  font-family: "TTFirs-Medium";
+  font-size: 14px;
   font-weight: 100;
 }
 
@@ -307,6 +326,13 @@ a {
     line-height: 38px;
     overflow-wrap: break-word;
   }
+  .author-info h4 {
+    font-size: 16px;
+  }
+  .author-info p {
+    font-size: 12px;
+  }
+
   .dates {
     flex-direction: column;
   }
@@ -437,5 +463,8 @@ a {
   }
   .content-section-header {
     font-size: 24px;
+  }
+  .main-content-info {
+    margin-right: 0;
   }
 }
