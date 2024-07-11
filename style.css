@@ -206,6 +206,9 @@ a {
   .header-links {
     display: none;
   }
+  .header-logo {
+    font-size: 28px;
+  }
 }
 /* header-sub */
 
@@ -245,6 +248,7 @@ a {
   border-radius: 50%;
   margin-right: 20px;
 }
+
 .author-info h4 {
   font-family: "TTFirs-Extrabold";
   font-size: 18px;
@@ -252,9 +256,10 @@ a {
   word-spacing: 3%;
 }
 .author-info p {
+  margin-top: 6px;
   font-family: "TTFirs-Medium";
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .dates {
